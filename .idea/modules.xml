@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/train-user/train-driver/driver-api/driver-api.iml" filepath="$PROJECT_DIR$/train-user/train-driver/driver-api/driver-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-user/train-driver/driver-server/driver-server.iml" filepath="$PROJECT_DIR$/train-user/train-driver/driver-server/driver-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-itinerary/itinerary-api/itinerary-api.iml" filepath="$PROJECT_DIR$/train-core/train-itinerary/itinerary-api/itinerary-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-itinerary/itinerary-server/itinerary-server.iml" filepath="$PROJECT_DIR$/train-core/train-itinerary/itinerary-server/itinerary-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-order/order-api/order-api.iml" filepath="$PROJECT_DIR$/train-core/train-order/order-api/order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-order/order-client/order-client.iml" filepath="$PROJECT_DIR$/train-core/train-order/order-client/order-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-order/order-server/order-server.iml" filepath="$PROJECT_DIR$/train-core/train-order/order-server/order-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-pay/pay-api/pay-api.iml" filepath="$PROJECT_DIR$/train-pay/pay-api/pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-pay/pay-server/pay-server.iml" filepath="$PROJECT_DIR$/train-pay/pay-server/pay-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-core.iml" filepath="$PROJECT_DIR$/train-core/train-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-ddd.iml" filepath="$PROJECT_DIR$/train-ddd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-demand/train-demand.iml" filepath="$PROJECT_DIR$/train-core/train-demand/train-demand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-user/train-driver/train-driver.iml" filepath="$PROJECT_DIR$/train-user/train-driver/train-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-evaluation/train-evaluation.iml" filepath="$PROJECT_DIR$/train-core/train-evaluation/train-evaluation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-itinerary/train-itinerary.iml" filepath="$PROJECT_DIR$/train-core/train-itinerary/train-itinerary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-order/trade-order.iml" filepath="$PROJECT_DIR$/train-core/train-order/trade-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-user/train-passager/train-passager.iml" filepath="$PROJECT_DIR$/train-user/train-passager/train-passager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-pay/train-pay.iml" filepath="$PROJECT_DIR$/train-pay/train-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-support/train-support.iml" filepath="$PROJECT_DIR$/train-support/train-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-user/train-user.iml" filepath="$PROJECT_DIR$/train-user/train-user.iml" />
+    </modules>
+  </component>
+</project>

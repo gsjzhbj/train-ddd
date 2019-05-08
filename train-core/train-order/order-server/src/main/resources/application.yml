@@ -1,0 +1,16 @@
+server:
+  port: 8083
+  context-path: /order-server-8223
+spring:
+  application:
+    name: order-server-8223
+  profiles:
+    active: dev
+remote:
+  server:
+    name: pay-server-8223
+    providerid: c87e2267-1001-4c70-bb2a-ab41f3b81aa3
+
+access:
+  key: xYTpAHo7DTJJgrKP
+  secret: Fm6RQim9YPgH1m7VJ17euIKNyJluwu

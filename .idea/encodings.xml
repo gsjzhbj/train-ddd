@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-order/order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-order/order-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-order/order-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-pay/pay-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-pay/pay-server" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+server:
+  port: 8089
+  context-path: /pay-server-8223
+spring:
+  application:
+    name: pay-server-8223
+  profiles:
+    active: dev
+
+access:
+  key: xYTpAHo7DTJJgrKP
+  secret: Fm6RQim9YPgH1m7VJ17euIKNyJluwu
