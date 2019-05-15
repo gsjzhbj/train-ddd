@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/train-core/train-demand/demand-api/demand-api.iml" filepath="$PROJECT_DIR$/train-core/train-demand/demand-api/demand-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-core/train-demand/demand-server/demand-server.iml" filepath="$PROJECT_DIR$/train-core/train-demand/demand-server/demand-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-user/train-driver/driver-api/driver-api.iml" filepath="$PROJECT_DIR$/train-user/train-driver/driver-api/driver-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-user/train-driver/driver-server/driver-server.iml" filepath="$PROJECT_DIR$/train-user/train-driver/driver-server/driver-server.iml" />
