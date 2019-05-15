@@ -9,6 +9,8 @@ public class DemandVO {
     private String begin;
     private String end;
     private String userId;
+    /**加价策略**/
+    private String markupStrategy;
 
     public String getId() {
         return id;
@@ -48,5 +50,13 @@ public class DemandVO {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public String getMarkupStrategy() {
+        return markupStrategy;
+    }
+
+    public void setMarkupStrategy(String markupStrategy) {
+        this.markupStrategy = markupStrategy;
     }
 }
