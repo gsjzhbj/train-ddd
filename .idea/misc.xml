@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/train-pay/pay-api/pom.xml" />
         <option value="$PROJECT_DIR$/train-pay/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/train-support/pom.xml" />
+        <option value="$PROJECT_DIR$/train-core/train-demand/pom.xml" />
+        <option value="$PROJECT_DIR$/train-core/train-evaluation/pom.xml" />
+        <option value="$PROJECT_DIR$/train-core/train-itinerary/pom.xml" />
       </list>
     </option>
   </component>

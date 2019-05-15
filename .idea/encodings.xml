@@ -3,6 +3,10 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-demand" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-demand/demand-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-evaluation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-core/train-itinerary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core/train-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core/train-order/order-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core/train-order/order-client" charset="UTF-8" />

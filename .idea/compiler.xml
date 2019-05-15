@@ -16,14 +16,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demand-server" />
         <module name="order-api" />
         <module name="order-client" />
         <module name="order-server" />
         <module name="pay-api" />
         <module name="pay-server" />
+        <module name="train-evaluation" />
+        <module name="train-itinerary" />
+        <module name="train-msg" />
+        <module name="train-task" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demand-server" target="1.7" />
       <module name="order-api" target="1.7" />
       <module name="order-client" target="1.7" />
       <module name="order-server" target="1.7" />
@@ -31,8 +37,14 @@
       <module name="pay-server" target="1.7" />
       <module name="train-core" target="1.7" />
       <module name="train-ddd" target="1.7" />
+      <module name="train-demand" target="1.7" />
+      <module name="train-evaluation" target="1.7" />
+      <module name="train-itinerary" target="1.7" />
+      <module name="train-msg" target="1.7" />
       <module name="train-order" target="1.7" />
       <module name="train-pay" target="1.7" />
+      <module name="train-support" target="1.7" />
+      <module name="train-task" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
