@@ -8,7 +8,7 @@ spring:
     active: dev
 remote:
   server:
-    name: pay-server-8223
+    name: pay-server-8223,bill-server-8223
     providerid: c87e2267-1001-4c70-bb2a-ab41f3b81aa3
 
 access:

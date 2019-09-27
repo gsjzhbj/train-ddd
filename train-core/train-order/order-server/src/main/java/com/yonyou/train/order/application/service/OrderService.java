@@ -1,11 +1,12 @@
 package com.yonyou.train.order.application.service;
 
 import com.yonyou.train.order.domain.service.OrderDomainService;
+import com.yonyou.train.order.domain.vo.OrderVo;
 import com.yonyou.train.order.interfaces.IOrderService;
 import com.yonyou.train.order.interfaces.assembler.OrderAssembler;
-import com.yonyou.train.order.domain.vo.OrderVo;
 import com.yonyou.train.pay.api.IPayService;
 import com.yonyou.train.pay.domain.vo.PayInfoVO;
+import com.yonyou.train.support.bill.api.IBillService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,9 @@ public class OrderService implements IOrderService {
 
     @Autowired
     private IPayService payService;
+
+    @Autowired
+    private IBillService billService;
 
     @Override
     public void createOrder(OrderVo orderVo) {
@@ -63,7 +67,7 @@ public class OrderService implements IOrderService {
     }
 
     @Override
-    public void evaluateOrder(OrderVo orderVo) {
+    public void evaluateOrder(OrderVo orderVo ,String info) {
 
     }
 
@@ -72,6 +76,7 @@ public class OrderService implements IOrderService {
         PayInfoVO payInfoVO = new PayInfoVO();
         try {
             payService.createPayInfo(payInfoVO);
+            billService.bill("");
         } catch (Exception e) {
             e.printStackTrace();
         }

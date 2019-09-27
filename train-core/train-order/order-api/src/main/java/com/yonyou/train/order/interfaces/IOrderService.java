@@ -23,7 +23,7 @@ public interface IOrderService {
     /***支付订单***/
     void payOrder(OrderVo orderVo);
     /***评价***/
-    void evaluateOrder(OrderVo orderVo);
-    /***完成订单***/
+    void evaluateOrder(OrderVo orderVo,String info);
+    /***完成订单 2019-08-12***/
     void finishOrder(OrderVo orderVo);
 }

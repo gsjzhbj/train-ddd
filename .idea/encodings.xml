@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core/train-demand" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-core/train-demand/demand-api" charset="UTF-8" />
@@ -15,5 +16,15 @@
     <file url="file://$PROJECT_DIR$/train-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-pay/pay-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train-pay/pay-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-support/train-bill" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-support/train-bill/bill-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-support/train-bill/bill-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-support/train-msg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-support/train-task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-user/train-driver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-user/train-driver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train-user/train-passager" charset="UTF-8" />
   </component>
 </project>

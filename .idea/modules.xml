@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/train-support/train-bill/bill-api/bill-api.iml" filepath="$PROJECT_DIR$/train-support/train-bill/bill-api/bill-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-support/train-bill/bill-server/bill-server.iml" filepath="$PROJECT_DIR$/train-support/train-bill/bill-server/bill-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.train-driver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.train-driver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.train-driver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.train-driver.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.trian-driver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.trian-driver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.trian-driver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yonyou.train.user.trian-driver.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yonyou.trian.user.trian-driver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yonyou.trian.user.trian-driver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yonyou.trian.user.trian-driver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yonyou.trian.user.trian-driver.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-core/train-demand/demand-api/demand-api.iml" filepath="$PROJECT_DIR$/train-core/train-demand/demand-api/demand-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-core/train-demand/demand-server/demand-server.iml" filepath="$PROJECT_DIR$/train-core/train-demand/demand-server/demand-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-user/train-driver/driver-api/driver-api.iml" filepath="$PROJECT_DIR$/train-user/train-driver/driver-api/driver-api.iml" />
@@ -13,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/train-core/train-order/order-server/order-server.iml" filepath="$PROJECT_DIR$/train-core/train-order/order-server/order-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-pay/pay-api/pay-api.iml" filepath="$PROJECT_DIR$/train-pay/pay-api/pay-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-pay/pay-server/pay-server.iml" filepath="$PROJECT_DIR$/train-pay/pay-server/pay-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-support/train-bill/train-bill.iml" filepath="$PROJECT_DIR$/train-support/train-bill/train-bill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train-common/train-common.iml" filepath="$PROJECT_DIR$/train-common/train-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-core/train-core.iml" filepath="$PROJECT_DIR$/train-core/train-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-ddd.iml" filepath="$PROJECT_DIR$/train-ddd.iml" />
       <module fileurl="file://$PROJECT_DIR$/train-core/train-demand/train-demand.iml" filepath="$PROJECT_DIR$/train-core/train-demand/train-demand.iml" />

@@ -23,6 +23,7 @@
         <module>train-order</module>
         <!-- 评价 -->
         <module>train-evaluation</module>
+        <module>../train-common</module>
     </modules>
 
 </project>

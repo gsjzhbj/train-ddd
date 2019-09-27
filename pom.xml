@@ -12,6 +12,9 @@
     <modules>
         <module>train-core</module>
         <module>train-pay</module>
+        <module>train-support</module>
+        <module>train-common</module>
+        <module>train-user</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -35,7 +38,7 @@
         <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
         <jetty.version>8.1.16.v20140903</jetty.version>
         <junit.version>4.11</junit.version>
-        <springboot.version>1.5.4.RELEASE</springboot.version>
+        <springboot.version>1.5.2.RELEASE</springboot.version>
     </properties>
 
 

@@ -16,6 +16,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bill-api" />
+        <module name="bill-server" />
         <module name="demand-api" />
         <module name="demand-server" />
         <module name="order-api" />
@@ -23,13 +25,26 @@
         <module name="order-server" />
         <module name="pay-api" />
         <module name="pay-server" />
+        <module name="train-common" />
+        <module name="train-driver" />
         <module name="train-evaluation" />
         <module name="train-itinerary" />
         <module name="train-msg" />
+        <module name="train-passager" />
         <module name="train-task" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="bill-api" target="1.7" />
+      <module name="bill-server" target="1.7" />
+      <module name="com.yonyou.train.user.traian-driver.main" target="1.8" />
+      <module name="com.yonyou.train.user.traian-driver.test" target="1.8" />
+      <module name="com.yonyou.train.user.train-driver.main" target="1.8" />
+      <module name="com.yonyou.train.user.train-driver.test" target="1.8" />
+      <module name="com.yonyou.train.user.trian-driver.main" target="1.8" />
+      <module name="com.yonyou.train.user.trian-driver.test" target="1.8" />
+      <module name="com.yonyou.trian.user.trian-driver.main" target="1.8" />
+      <module name="com.yonyou.trian.user.trian-driver.test" target="1.8" />
       <module name="demand-api" target="1.7" />
       <module name="demand-server" target="1.7" />
       <module name="order-api" target="1.7" />
@@ -37,16 +52,21 @@
       <module name="order-server" target="1.7" />
       <module name="pay-api" target="1.7" />
       <module name="pay-server" target="1.7" />
+      <module name="train-bill" target="1.7" />
+      <module name="train-common" target="1.7" />
       <module name="train-core" target="1.7" />
       <module name="train-ddd" target="1.7" />
       <module name="train-demand" target="1.7" />
+      <module name="train-driver" target="1.7" />
       <module name="train-evaluation" target="1.7" />
       <module name="train-itinerary" target="1.7" />
       <module name="train-msg" target="1.7" />
       <module name="train-order" target="1.7" />
+      <module name="train-passager" target="1.7" />
       <module name="train-pay" target="1.7" />
       <module name="train-support" target="1.7" />
       <module name="train-task" target="1.7" />
+      <module name="train-user" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,6 +5,7 @@ import com.yonyou.train.order.domain.entity.OrderEntity;
 /***
  * 订单基础设施层服务
  */
+
 public interface OrderRepository {
     /***保存订单***/
     void saveOrder(OrderEntity orderEntity);

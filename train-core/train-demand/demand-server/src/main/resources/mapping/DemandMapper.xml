@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yonyou.train.core.demand.repository">
+
+    <resultMap id="resultMap" type="com.yonyou.train.core.demand.domain.entity.DemandEntity">
+        <result column="id" jdbcType="VARCHAR" property="id" />
+        <result column="begin_" jdbcType="VARCHAR" property="begin" />
+        <result column="end_" jdbcType="VARCHAR" property="end" />
+        <result column="car_type" jdbcType="INTEGER" property="carType" />
+        <result column="time_" jdbcType="VARCHAR" property="time" />
+        <result column="user_id" jdbcType="VARCHAR" property="userId" />
+        <result column="demand_state_" jdbcType="INTEGER" property="demandState" />
+    </resultMap>
+
+    <select id="selectById" resultMap="resultMap">
+        select * from user where id = #{id}
+    </select>
+
+</mapper>

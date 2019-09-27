@@ -1,9 +1,11 @@
 package com.yonyou.train.core.demand.domain.entity;
 
+import com.yonyou.train.common.Entity;
+
 /****
  * 行程需求
  */
-public class DemandEntity {
+public class DemandEntity extends Entity {
     private String id;
     private String begin;
     private String end;
